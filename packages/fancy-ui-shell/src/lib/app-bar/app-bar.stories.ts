@@ -1,9 +1,9 @@
 import { Meta, moduleMetadata, StoryObj } from '@storybook/angular';
-import { action } from '@storybook/addon-actions';
+import { action } from 'storybook/actions';
 import { AppBarActionComponent } from './app-bar-action.component';
 import { AppBarComponent } from './app-bar.component';
 
-import { userEvent, within, expect, fn } from '@storybook/test';
+import { userEvent, within, expect, fn } from 'storybook/test';
 import { provideIcons } from '@ng-icons/core';
 import { heroUsers } from '@ng-icons/heroicons/outline';
 import { provideFancyUi } from 'fancy-ui-core';

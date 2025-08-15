@@ -47,13 +47,9 @@
     "@nx/web": "20.4.0",
     "@nx/workspace": "20.4.0",
     "@schematics/angular": "19.1.5",
-    "@storybook/addon-essentials": "8.4.6",
-    "@storybook/addon-interactions": "8.4.6",
-    "@storybook/addon-docs": "8.4.6",
-    "@storybook/angular": "8.4.6",
-    "@storybook/core-server": "8.4.6",
-    "@storybook/test": "8.4.6",
-    "storybook": "8.4.6",
+    "@storybook/addon-docs": "9.1.2",
+    "@storybook/angular": "9.1.2",
+    "storybook": "9.1.2",
     "@swc-node/register": "1.9.2",
     "@swc/core": "1.5.7",
     "@swc/helpers": "0.5.13",
@@ -78,6 +74,7 @@
     "ts-jest": "^29.1.0",
     "ts-node": "10.9.1",
     "typescript": "5.7.3",
-    "values.js": "^2.1.1"
+    "values.js": "^2.1.1",
+    "eslint-plugin-storybook": "9.1.2"
   }
 }

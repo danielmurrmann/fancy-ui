@@ -1,10 +1,10 @@
 import { provideFancyUi } from 'fancy-ui-core';
 import { componentWrapperDecorator, Meta, moduleMetadata, StoryObj } from '@storybook/angular';
-import { action } from '@storybook/addon-actions';
+import { action } from 'storybook/actions';
 
 import { TextAreaComponent } from './text-area.component';
 
-import { fn } from '@storybook/test';
+import { fn } from 'storybook/test';
 import { FormsModule } from '@angular/forms';
 
 const meta: Meta<TextAreaComponent> = {

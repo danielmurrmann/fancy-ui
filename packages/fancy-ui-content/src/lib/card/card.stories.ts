@@ -1,6 +1,6 @@
 import { componentWrapperDecorator, Meta, moduleMetadata, StoryObj } from '@storybook/angular';
-import { action } from '@storybook/addon-actions';
-import { fn } from '@storybook/test';
+import { action } from 'storybook/actions';
+import { fn } from 'storybook/test';
 import { CardComponent } from './card.component';
 import { CardHeaderComponent } from './card-header.component';
 import { CardImageComponent } from './card-image.component';

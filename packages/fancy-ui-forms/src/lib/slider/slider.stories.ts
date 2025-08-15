@@ -1,9 +1,9 @@
 import { componentWrapperDecorator, Meta, moduleMetadata, StoryObj } from '@storybook/angular';
-import { action } from '@storybook/addon-actions';
+import { action } from 'storybook/actions';
 
 import { SliderComponent } from './slider.component';
 
-import { fn } from '@storybook/test';
+import { fn } from 'storybook/test';
 import { FormsModule } from '@angular/forms';
 
 const meta: Meta<SliderComponent> = {

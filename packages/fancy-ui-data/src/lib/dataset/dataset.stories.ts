@@ -1,7 +1,7 @@
 import { Meta, moduleMetadata, StoryObj } from '@storybook/angular';
-import { action } from '@storybook/addon-actions';
+import { action } from 'storybook/actions';
 
-import { fn } from '@storybook/test';
+import { fn } from 'storybook/test';
 
 import { DatasetComponent } from './dataset.component';
 import { DatasetCardheaderComponent } from './dataset-cardheader.component';
