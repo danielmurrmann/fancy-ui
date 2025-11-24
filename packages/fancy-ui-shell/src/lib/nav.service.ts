@@ -32,7 +32,7 @@ export class NavService {
             });
           });
         }
-      }, { allowSignalWrites: true});
+      });
     });
   }
 
@@ -56,7 +56,7 @@ export class NavService {
             });
           });
         }
-      }, { allowSignalWrites: true});
+      });
     });
   }
 
