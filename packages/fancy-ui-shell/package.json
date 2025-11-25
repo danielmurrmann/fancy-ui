@@ -1,6 +1,6 @@
 {
   "name": "fancy-ui-shell",
-  "version": "20.0.0-rc.0",
+  "version": "20.0.0",
   "peerDependencies": {
     "@angular/common": "^20.1.0",
     "@angular/core": "^20.1.0"
